@@ -1,9 +1,9 @@
 def Palindrome(s):
     return s == s[: : -1]
 s = input()
-slo= Palindrome(s)
+slovo = Palindrome(s)
 
-if slo:
+if slovo:
     print('true')
 else:
     print('False')
